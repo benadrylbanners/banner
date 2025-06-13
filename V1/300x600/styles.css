@@ -148,8 +148,8 @@ body {
 
 html,
 .bannerSize {
-  width: 600px;
-  height: 450px;
+  width: 300px;
+  height: 600px;
 }
 
 span {
@@ -181,39 +181,53 @@ span {
   position: absolute;
 }
 
-.CTA {
-  width: 127px;
+.cta {
+  width: 112px;
   height: auto;
-  bottom: 57px;
-  right: 34px;
+  bottom: 164px;
+  right: 45px;
 }
 
 .product {
-  width: 295px;
+  width: 255px;
   height: auto;
-  right: 6px;
-  top: 169px;
+  right: 21px;
+  top: 220px;
 }
 
-.mainCopy {
-  width: 227px;
+.copy1 {
+  width: 220px;
   height: auto;
-  right: 38px;
-  top: 21px;
+  right: 40px;
+  top: 116px;
 }
 
-.copy {
+.copy2 {
+  width: 234px;
+  height: auto;
+  right: 31px;
+  top: 86px;
+}
+
+.copy3 {
+  width: 214px;
+  height: auto;
+  right: 43px;
+  top: 69px;
+}
+
+.tag {
   width: 179px;
   height: auto;
-  bottom: 99px;
-  right: 25px;
+  bottom: 217px;
+  right: 38px;
 }
 
 .disclaimer {
-  width: 126px;
+  width: 71px;
   height: auto;
-  bottom: 9px;
-  right: 13px;
+  bottom: 76px;
+  right: 5px;
 }
 
 .person {
@@ -224,7 +238,7 @@ span {
 }
 
 .logo {
-  width: 215px;
+  width: 148px;
   height: auto;
   top: 0px;
   left: 0px;

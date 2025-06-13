@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="ad.size" content="width=300,height=600" />
+
+  <title>Benadryl</title>
+  <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+  <link type="text/css" rel="stylesheet" href="fonts.css" />
+  <link type="text/css" rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body style="visibility: hidden;">
+  <div id="banner" class="bannerSize posAbsolute lt0">
+    <div id="bg1" class="bg1 posAbsolute w100 lt0 bannerSize hide">
+      <img id="bg_img" src="./images/bg.jpg" class="lt0 w100" />
+    </div>
+    <div id="logo" class="logo posAbsolute w100 lt0 bannerSize">
+      <img id="logo_img" src="./images/logo.png" class="lt0 w100" />
+    </div>
+    <div id="copy1" class="copy1 posAbsolute w100 lt0 bannerSize">
+      <img id="copy1_img" src="./images/copy1.png" class="lt0 w100" />
+    </div>
+    <div id="copy2" class="copy2 posAbsolute w100 lt0 bannerSize">
+      <img id="copy2_img" src="./images/copy2.png" class="lt0 w100" />
+    </div>
+    <div id="copy3" class="copy3 posAbsolute w100 lt0 bannerSize">
+      <img id="copy3_img" src="./images/copy3.png" class="lt0 w100" />
+    </div>
+    <div id="product" class="product posAbsolute w100 lt0 bannerSize">
+      <img id="product_img" src="./images/benadryl.png" class="lt0 w100" />
+    </div>
+    <div id="tag" class="tag posAbsolute w100 lt0 bannerSize">
+      <img id="tag_img" src="./images/tag.png" class="lt0 w100" />
+    </div>
+    <div id="cta" class="cta posAbsolute w100 lt0 bannerSize">
+      <img id="cta_img" src="./images/cta.svg" class="lt0 w100" />
+    </div>
+    <div id="disclaimer" class="disclaimer posAbsolute w100 lt0 bannerSize">
+      <img id="disclaimer_img" src="./images/disclaimer.png" class="lt0 w100" />
+    </div>
+  </div>
+  <script type="text/javascript">
+    var clickTag = "https://www.google.com";
+    var clickArea = document.getElementById("banner");
+    clickArea.onclick = function () {
+      window.open(clickTag, "_blank");
+    };
+  </script>
+</body>
+
+</html>
